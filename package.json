@@ -1,0 +1,25 @@
+{
+  "name": "jelpit-personas-lambda-edge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sls offline start --skipCacheInvalidation",
+    "test": "npx jest --detectOpenHandles --forceExit",
+    "build": "",
+    "test:coverage": "jest --watchAll false --coverage --detectOpenHandles --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segurosbolivar/jelpit-personas-lambda-edge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/segurosbolivar/jelpit-personas-lambda-edge/issues"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
